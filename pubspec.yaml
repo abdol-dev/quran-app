@@ -1,0 +1,36 @@
+name: quran_app
+description: Quran app
+publish_to: 'none'
+version: 1.0.0+1
+environment:
+  sdk: ">=3.0.0 <4.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+
+  shared_preferences: ^2.1.1
+  http: ^0.13.0   # برای درخواست‌های HTTP
+  intl: ^0.17.0   # برای فرمت تاریخ/وقت
+  geolocator: ^10.1.0
+  adhan: ^2.0.0+1
+  geocoding: ^2.1.0
+  hijri: ^3.0.0
+  just_audio: ^0.9.36
+  audio_session: ^0.1.18
+
+
+
+flutter:
+  uses-material-design: true
+  fonts:
+    - family: UthmanTaha
+      fonts:
+        - asset: assets/fonts/UthmanTahaNaskh.ttf
+  assets:
+
+    - assets/prayer.json
+    - assets/page_webp/
+    - assets/bboxes_final/
+    - assets/ayah_data/
+    - assets/audio/Ayman_Sowaid/
