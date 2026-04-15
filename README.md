@@ -5,8 +5,12 @@ An AI-powered Quran recitation assistant designed to help users improve their pr
 ## Features
 
 - Audio-based recitation practice
-- Clean and simple user interface
-- Structured learning experience
+- Display of Quran text similar to the printed Mushaf
+- Verse-by-verse translation display
+- Play audio for each verse by tapping on it
+- Simultaneous audio and translation when selecting a verse
+- Prayer times based on user location (GPS)
+- Clean and user-friendly interface
 - AI-based pronunciation feedback (coming soon)
 
 ## AI Module Status
@@ -16,9 +20,10 @@ Integration with the main application is currently in progress.
 
 ## Tech Stack
 
-- Flutter (for mobile app)
-- Python (for AI processing - planned)
+- Flutter (mobile application)
+- Python (AI processing - planned)
 - Audio processing
+- GPS/location services
 
 ## Assets
 
@@ -38,4 +43,4 @@ You can use your own audio files or contact me for access to the full version.
 
 ## Author
 
-Developed by [abdollah malekzadeh]
+Developed by [Abdollah Malekzadeh]
